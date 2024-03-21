@@ -10,12 +10,6 @@ conn();
 const routes = require('./routes/routes');
 app.use('/', routes);
 
-
 app.listen(3001, () => {
     console.log("Servidor iniciado!");
 })
-// app.get('/', (req, res) => {
-    
-//     res.send('Hello World!');
-
-// })
